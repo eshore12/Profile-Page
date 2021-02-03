@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@600&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0edf1;
+  color:  #4c4b4d;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+h1{
+  font-family: 'Rubik', sans-serif;
+  color: #1e1e22;
+  font-size: 28px;
+  line-height: 16px;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  color: #1e1e22;
+  font-size: 24px;
+  line-height: 16px;
+}
+
+a {
+  text-decoration: none;
+   color: #777575;
+}
+
+a:hover {
+  color: #1e1e22;
+}
+
+.card {
+  width: 50%;
+  margin: 24px auto;
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+  text-align: center;
+  border-radius: 8px;
+}
+
+.img-circle {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+}
+
+.image-inline {
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.image-inline-three{
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.image-inline-three img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+  margin: 50px;
+}
+
+.image-inline-three p{
+  width: 240px;
+  padding-top: 70px;
+}
+
+.image-inline img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+}
+
+.image-inline p {
+  font-size: 18px;
+  width: 70%;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  font-size: 32px;
+}
+
+.list-inline a {
+  margin: 8px;
+  font-size: 32px;
+  color: #777575
+}
+
+.list-inline a:hover {
+  color: #1e1e22;
+}
+
+.btn-blue {
+  background-color: #98ddf3;
+  color: rgb(50,50,50);
+  transition: 0.2s;
+  padding: 16px 32px;
+  margin: 16px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #54C6EB;
+  color: rgb(20,20,20);
+  transition: 1s;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+  .image-inline-three {
+    display: block;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
+
